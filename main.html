@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="about.html">About</a>
+        <a href="friends.html">Hottie Friends</a>
+        <a href="hobbies.html">Hobbies</a>
+    </div>
+    <h1>Hi! I'm Dominykas Laucius</h1>
+
+    <div class="MainDiv">
+        <div class="skills">
+           <h2>Skills</h2>
+           <p>He can play all instruments</p>
+           <p>He can dunk a basketball</p>
+           <p>He has the world record</p>
+        </div>
+        <img id="piano-pic" src="images/picture1.png">
+        <div class="skills">
+            <h2>More Skills</h2>
+            <p>He can do a backflip</p>
+            <p>He can do a frontflip</p>
+            <p>He can do a double backflip</p>
+        </div>
+    </div>
+    <script>
+        const songOne = new Audio("audios/BadPiggies.mp3")
+    </script>
+    <div class="songButton">
+        <button onclick="songOne.play()" class = "button">Click Me</button>
+        <button onclick="songOne.pause()" class = "button">Pause Song</button>
+    </div>
+</body>
+</html>

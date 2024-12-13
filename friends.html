@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Choose a hottie:</h1>
+    <div class="hotties">
+        <img onclick = "brennerSong.play(), brenner()" src="https://i.ytimg.com/vi/Mv301G2rVmg/hqdefault.jpg">
+        <img onclick = "bobbySong.play(), bobby()" src="https://img4.spoki.lv/upload2/articles/82/827172/images/-6.jpg">
+        <img onclick = "domSong.play(), dom()" src="https://i.ytimg.com/vi/zBo7TMghwgQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFMgZShfMA8=&rs=AOn4CLDA09GM14wQr4gxqZtmM-ezOsl3DQ">
+        <img onclick = "markSong.play(), mark()" src="https://s3.envato.com/files/329708864/s78-mckinsey-9883.jpg">
+    </div>
+    <button id = "pauseButton" onclick = "brennerSong.pause(), markSong.pause(), bobbySong.pause(), domSong.pause()">Stop songs</button>
+    <a id="backToMain"href="main.html">Back to main page</a>
+    <script>
+        const brennerSong = new Audio("audios/SigmaBoy.mp3")
+        const markSong = new Audio("audios/Toyota.mp3")
+        const bobbySong = new Audio("audios/GodIsGood.mp3")
+        const domSong = new Audio("audios/Autism.mp3")
+        function bobby() {
+            alert("This is Bobby. Bobby pulled. Bad luck, choose another hottie.")
+        }
+        function mark() {
+            alert("This is Mark. He is a certified bucket.")
+        }
+        function brenner() {
+            alert("This is Brenner. Huge cock with some fat nuts, that's about it.")
+        }
+        function dom() {
+            alert("This is Dom. You chose the correct answer.")
+        }
+
+    </script>
+</body>
+</html>
